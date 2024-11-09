@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
 
+import { PeopleTableComponent } from '../../components/people-table/people-table.component';
 
 
 @NgModule({
  
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    PeopleTableComponent
   ]
 })
 export class HomeModule { }
