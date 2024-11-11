@@ -20,7 +20,7 @@ export interface UserData {
 @Component({
   selector: 'app-people-table',
   standalone: true,
-  imports: [CommonModule,MatInputModule,MatPaginatorModule,MatTableModule,MatFormFieldModule],
+  imports: [MatSortModule,CommonModule,MatInputModule,MatPaginatorModule,MatTableModule,MatFormFieldModule],
   templateUrl: './people-table.component.html',
   styleUrl: './people-table.component.scss'
 })

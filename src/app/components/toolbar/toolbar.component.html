@@ -1,8 +1,8 @@
 <mat-toolbar>
-  <span>Gentleman Angular Test</span>
+  <span *ngIf="false">Gentleman Angular Test</span>
   <span class="example-spacer"></span>
 
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with menu icon">
+    <button  (click)="openDialog()" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>favorite</mat-icon>
     </button>
   
